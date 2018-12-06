@@ -75,9 +75,8 @@ const parseQuestion = (q) => {
 
   return question;
 };
-
 const moodleXMLtoJSON = (xmlStr, callback) => {
-  parseString(xmlStr, (err, result) => {
+  parseString(xmlStr, { trim: true, normalizeTags: true }, (err, result) => {
     if (err) {
       callback(undefined, err);
       return;

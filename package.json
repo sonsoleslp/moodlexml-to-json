@@ -10,7 +10,7 @@
     "test:only": "mocha --require babel-core/register --require babel-polyfill --recursive",
     "test:watch": "npm test -- --watch",
     "test:examples": "node examples/",
-    "cover": "istanbul cover _mocha -- --require babel-core/register --require babel-polyfill --recursive",
+    "cover": "istanbul cover  node_modules/mocha/bin/_mocha -- -R spec --require babel-core/register --require babel-polyfill   --recursive",
     "lint": "eslint src test",
     "build": "cross-env BABEL_ENV=production babel src --out-dir lib",
     "prepublish": "npm run clean && npm run lint && npm run test && npm run build"
@@ -22,7 +22,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sonsoleslp/moodlexml-to-json.git"
-  },
+  },  
   "keywords": [
     "moodlexml",
     "moodle",
