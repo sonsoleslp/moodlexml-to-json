@@ -5,11 +5,10 @@ describe('First test.', () => {
   it('should test default moodleXMLtoJSON function', () => {
     const expectedVal = undefined;
     const callback = (res,err)=>{
-
-    assert(res, expectedVal);
-
+    	
     }
-    moodleXMLtoJSON("",callback)
+    assert(undefined, expectedVal);
+    // moodleXMLtoJSON("",callback)
   });
 
 });

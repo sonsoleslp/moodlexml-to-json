@@ -1,22 +1,66 @@
-# NPM Module Boilerplate
+# MoodleXML to JSON
 
-[![Build Status](https://travis-ci.org/flexdinesh/npm-module-boilerplate.svg?branch=master)](https://travis-ci.org/flexdinesh/npm-module-boilerplate) [![dependencies Status](https://david-dm.org/flexdinesh/npm-module-boilerplate/status.svg)](https://david-dm.org/flexdinesh/npm-module-boilerplate) [![devDependencies Status](https://david-dm.org/flexdinesh/npm-module-boilerplate/dev-status.svg)](https://david-dm.org/flexdinesh/npm-module-boilerplate?type=dev) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.org/sonsoleslp/moodlexml-to-json.svg?branch=master)](https://travis-ci.org/sonsoleslp/moodlexml-to-json) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-**Start developing your NPM module in seconds** ✨
 
-Readymade boilerplate setup with all the best practices to kick start your npm/node module development.
+This JS library parses MoodleXML quizzes into JSON objects.
 
-Happy hacking =)
+## Usage
 
-# Features
+```
+import moodleXMLtoJSON from 'moodlexml-to-json';
+// ...
+moodleXMLtoJSON(xmlString, (result, error) => {
+	if (error) {
+		console.error(error);
+	} else {
+		console.log(result);
+	}
+}); 
+```
+## Examples
 
-* **ES6/ESNext** - Write _ES6_ code and _Babel_ will transpile it to ES5 for backwards compatibility
-* **Test** - _Mocha_ with _Istanbul_ coverage
-* **Lint** - Preconfigured _ESlint_ with _Airbnb_ config
-* **CI** - _TravisCI_ configuration setup
-* **Minify** - Built code will be minified for performance
+On the server
 
-# Commands
+```
+import moodleXMLtoJSON from 'moodlexml-to-json';
+const fs = require('fs');
+const path = require('path');
+
+const xmlString = fs.readFileSync("/path/to/your/file.xml", 'utf8');
+
+moodleXMLtoJSON(xmlString, (result, error) => {
+	if (error) {
+		console.error(error);
+	} else {
+		console.log(result);
+	}
+}); 
+
+```
+
+On a JS SPA
+
+```
+import moodleXMLtoJSON from 'moodlexml-to-json';
+// ...
+fetch("https://myweb.org/moodle.xml")
+  .then(res=>res.text())
+  .then(xmlString => {
+  	moodleXMLtoJSON(xmlString, (result, error) => {
+  		if (error) {
+  			console.error(error);
+  		} else {
+  			console.log(result);
+  		}
+  	}); 
+});
+```
+
+## Development 
+ 
+### Commands
 - `npm run clean` - Remove `lib/` directory
 - `npm test` - Run tests with linting and coverage results.
 - `npm test:only` - Run tests without linting or coverage.
@@ -28,10 +72,6 @@ Happy hacking =)
 - `npm run build` - Babel will transpile ES6 => ES5 and minify the code.
 - `npm run prepublish` - Hook for npm. Do all the checks before publishing your module.
 
-# Installation
-Just clone this repo and remove `.git` folder.
+## License
 
-
-# License
-
-MIT © Dinesh Pandiyan
+MIT © Sonsoles López Pernas

@@ -8,11 +8,11 @@ const contents = fs.readFileSync(normalPath, 'utf8');
 
 const callback = (result, error) => {
 	if (error) {
-		console.error(error)
+		console.error(error);
 		return;
 	}
 
-	console.log(result)
+	console.log(result);
 
 }
 moodleXMLtoJSON(contents, callback); 
