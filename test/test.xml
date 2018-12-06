@@ -1,0 +1,2257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with http://vletools.com -->
+<quiz>
+  <question type="category">
+    <category>
+      <text>__Category Name__</text>
+    </category>
+  </question>
+  <!-- Question entry 1 -->
+  <question type="truefalse">
+    <name>
+      <text>
+        <![CDATA[El código que indica cómo se va a mostrar el contenido de un componente de React...]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[El código que indica cómo se va a mostrar el contenido de un componente de React en el navegador se indica en el método componentDidMount del mismo.]]>
+      </text>
+    </questiontext>
+    <answer fraction="0">
+      <text>
+        <![CDATA[true]]>
+      </text>
+    </answer>
+    <answer fraction="100">
+      <text>
+        <![CDATA[false]]>
+      </text>
+    </answer>
+  </question>
+  <!-- Question entry 2 -->
+  <question type="truefalse">
+    <name>
+      <text>
+        <![CDATA[Las props de React constituyen un objeto JavaScript que debería ser inmutable.]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[Las props de React constituyen un objeto JavaScript que debería ser inmutable.]]>
+      </text>
+    </questiontext>
+    <answer fraction="100">
+      <text>
+        <![CDATA[true]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[false]]>
+      </text>
+    </answer>
+  </question>
+  <!-- Question entry 3 -->
+  <question type="truefalse">
+    <name>
+      <text>
+        <![CDATA[Para que el navegador pueda interpretar el lenguaje JSX es necesario transpilarl...]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[Para que el navegador pueda interpretar el lenguaje JSX es necesario transpilarlo a JavaScript y para ello se emplea Babel.]]>
+      </text>
+    </questiontext>
+    <answer fraction="100">
+      <text>
+        <![CDATA[true]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[false]]>
+      </text>
+    </answer>
+  </question>
+  <!-- Question entry 4 -->
+  <question type="truefalse">
+    <name>
+      <text>
+        <![CDATA[En React el flujo de datos es unidireccional (one-way data binding).]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[En React el flujo de datos es unidireccional (one-way data binding).]]>
+      </text>
+    </questiontext>
+    <answer fraction="100">
+      <text>
+        <![CDATA[true]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[false]]>
+      </text>
+    </answer>
+  </question>
+  <!-- Question entry 5 -->
+  <question type="truefalse">
+    <name>
+      <text>
+        <![CDATA[Redux es un fichero que indica las dependencias del proyecto, los scripts que se...]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[Redux es un fichero que indica las dependencias del proyecto, los scripts que se pueden ejecutar, la versión, etc.]]>
+      </text>
+    </questiontext>
+    <answer fraction="0">
+      <text>
+        <![CDATA[true]]>
+      </text>
+    </answer>
+    <answer fraction="100">
+      <text>
+        <![CDATA[false]]>
+      </text>
+    </answer>
+  </question>
+  <!-- Question entry 6 -->
+  <question type="truefalse">
+    <name>
+      <text>
+        <![CDATA[Para desplegar una aplicación web creada con CRA en producción en un servidor se...]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[Para desplegar una aplicación web creada con CRA en producción en un servidor se utiliza webpack-dev-server.]]>
+      </text>
+    </questiontext>
+    <answer fraction="0">
+      <text>
+        <![CDATA[true]]>
+      </text>
+    </answer>
+    <answer fraction="100">
+      <text>
+        <![CDATA[false]]>
+      </text>
+    </answer>
+  </question>
+  <!-- Question entry 7 -->
+  <question type="truefalse">
+    <name>
+      <text>
+        <![CDATA[Redux es una librería JavaScript que permite tener varios stores para distribuir...]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[Redux es una librería JavaScript que permite tener varios stores para distribuir el estado de la aplicación.]]>
+      </text>
+    </questiontext>
+    <answer fraction="0">
+      <text>
+        <![CDATA[true]]>
+      </text>
+    </answer>
+    <answer fraction="100">
+      <text>
+        <![CDATA[false]]>
+      </text>
+    </answer>
+  </question>
+  <!-- Question entry 8 -->
+  <question type="truefalse">
+    <name>
+      <text>
+        <![CDATA[UX y UI son exactamente lo mismo. Uno complementa al otro y siempre tienen que a...]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[UX y UI son exactamente lo mismo. Uno complementa al otro y siempre tienen que aparecer juntos (UX/UI)]]>
+      </text>
+    </questiontext>
+    <answer fraction="0">
+      <text>
+        <![CDATA[true]]>
+      </text>
+    </answer>
+    <answer fraction="100">
+      <text>
+        <![CDATA[false]]>
+      </text>
+    </answer>
+  </question>
+  <!-- Question entry 9 -->
+  <question type="truefalse">
+    <name>
+      <text>
+        <![CDATA[En una aplicación de React, las peticiones a una API REST se deben hacer en el m...]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[En una aplicación de React, las peticiones a una API REST se deben hacer en el método render() de un componente para que se actualice la información cada vez que éste se repinte.]]>
+      </text>
+    </questiontext>
+    <answer fraction="0">
+      <text>
+        <![CDATA[true]]>
+      </text>
+    </answer>
+    <answer fraction="100">
+      <text>
+        <![CDATA[false]]>
+      </text>
+    </answer>
+  </question>
+  <!-- Question entry 10 -->
+  <question type="truefalse">
+    <name>
+      <text>
+        <![CDATA[En React el flujo de datos es bidireccional (two-way data binding)]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[En React el flujo de datos es bidireccional (two-way data binding)]]>
+      </text>
+    </questiontext>
+    <answer fraction="0">
+      <text>
+        <![CDATA[true]]>
+      </text>
+    </answer>
+    <answer fraction="100">
+      <text>
+        <![CDATA[false]]>
+      </text>
+    </answer>
+  </question>
+  <!-- Question entry 11 -->
+  <question type="truefalse">
+    <name>
+      <text>
+        <![CDATA[React es una tecnología web que se ejecuta en el lado del cliente sin necesidad ...]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[React es una tecnología web que se ejecuta en el lado del cliente sin necesidad de un servidor que renderice el contenido]]>
+      </text>
+    </questiontext>
+    <answer fraction="100">
+      <text>
+        <![CDATA[true]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[false]]>
+      </text>
+    </answer>
+  </question>
+  <!-- Question entry 12 -->
+  <question type="truefalse">
+    <name>
+      <text>
+        <![CDATA[JSX es una extensión de Javascript, por lo que los navegadores son capaces de in...]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[JSX es una extensión de Javascript, por lo que los navegadores son capaces de interpretarlo.]]>
+      </text>
+    </questiontext>
+    <answer fraction="0">
+      <text>
+        <![CDATA[true]]>
+      </text>
+    </answer>
+    <answer fraction="100">
+      <text>
+        <![CDATA[false]]>
+      </text>
+    </answer>
+  </question>
+  <!-- Question entry 13 -->
+  <question type="truefalse">
+    <name>
+      <text>
+        <![CDATA[En una aplicación de React-Redux tendremos un reducer por cada acción del usuari...]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[En una aplicación de React-Redux tendremos un reducer por cada acción del usuario.]]>
+      </text>
+    </questiontext>
+    <answer fraction="0">
+      <text>
+        <![CDATA[true]]>
+      </text>
+    </answer>
+    <answer fraction="100">
+      <text>
+        <![CDATA[false]]>
+      </text>
+    </answer>
+  </question>
+  <!-- Question entry 14 -->
+  <question type="truefalse">
+    <name>
+      <text>
+        <![CDATA[En una aplicación de React-Redux suelen conectarse todos los componentes directa...]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[En una aplicación de React-Redux suelen conectarse todos los componentes directamente con Redux.]]>
+      </text>
+    </questiontext>
+    <answer fraction="0">
+      <text>
+        <![CDATA[true]]>
+      </text>
+    </answer>
+    <answer fraction="100">
+      <text>
+        <![CDATA[false]]>
+      </text>
+    </answer>
+  </question>
+  <!-- Question entry 15 -->
+  <question type="truefalse">
+    <name>
+      <text>
+        <![CDATA[Después de actualizar el estado en una aplicación React Native se llama al rende...]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[Después de actualizar el estado en una aplicación React Native se llama al renderizador para actualizar el DOM.]]>
+      </text>
+    </questiontext>
+    <answer fraction="0">
+      <text>
+        <![CDATA[true]]>
+      </text>
+    </answer>
+    <answer fraction="100">
+      <text>
+        <![CDATA[false]]>
+      </text>
+    </answer>
+  </question>
+  <!-- Question entry 16 -->
+  <question type="truefalse">
+    <name>
+      <text>
+        <![CDATA[Flexbox permite a un componente de React Native especificar la disposición de su...]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[Flexbox permite a un componente de React Native especificar la disposición de sus padres de una manera consistente.]]>
+      </text>
+    </questiontext>
+    <answer fraction="0">
+      <text>
+        <![CDATA[true]]>
+      </text>
+    </answer>
+    <answer fraction="100">
+      <text>
+        <![CDATA[false]]>
+      </text>
+    </answer>
+  </question>
+  <!-- Question entry 17 -->
+  <question type="truefalse">
+    <name>
+      <text>
+        <![CDATA[Flexbox permite a un componente de React Native especificar la disposición de su...]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[Flexbox permite a un componente de React Native especificar la disposición de sus padres de una manera consistente.]]>
+      </text>
+    </questiontext>
+    <answer fraction="0">
+      <text>
+        <![CDATA[true]]>
+      </text>
+    </answer>
+    <answer fraction="100">
+      <text>
+        <![CDATA[false]]>
+      </text>
+    </answer>
+  </question>
+  <!-- Question entry 18 -->
+  <question type="truefalse">
+    <name>
+      <text>
+        <![CDATA[StackNavigator permite a una aplicación React Native realizar transiciones entre...]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[StackNavigator permite a una aplicación React Native realizar transiciones entre pantallas en las que cada nueva pantalla se coloca encima de una pila.]]>
+      </text>
+    </questiontext>
+    <answer fraction="100">
+      <text>
+        <![CDATA[true]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[false]]>
+      </text>
+    </answer>
+  </question>
+  <!-- Question entry 19 -->
+  <question type="truefalse">
+    <name>
+      <text>
+        <![CDATA[En React Native, si una función ha sido declarada con la palabra clave async sig...]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[En React Native, si una función ha sido declarada con la palabra clave async significa que devolverá una promesa la cual será rechazada si y solo si la función lanza una excepción.]]>
+      </text>
+    </questiontext>
+    <answer fraction="100">
+      <text>
+        <![CDATA[true]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[false]]>
+      </text>
+    </answer>
+  </question>
+  <!-- Question entry 20 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[What is flux?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[What is flux?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[Flux is a pattern for managing data flow in your application.]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Flux is a framework for managing data flow in your application.]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Flux is a library for managing data flow in your application.]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Flux is a React extension for managing data flow in your application.]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 21 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[What is flux?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[What is flux?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[Flux is a pattern for managing data flow in your application.]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Flux is a framework for managing data flow in your application.]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Flux is a library for managing data flow in your application.]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Flux is a React extension for managing data flow in your application.]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 22 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[How does data flow in Flux?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[How does data flow in Flux?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[In Flux data flows in one direction]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[In Flux data flows in two directions]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[In Flux data flow can be chosen by the programmer, either one or two directions]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[In Flux there is no data flow. Data flow is a React concept]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 23 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[How is Flux related to React Components?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[How is Flux related to React Components?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[React Components are the Flux Views]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[React Components are the Flux Dispatcher]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[React Components are the Flux Store]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[React Components are used to implement any piece of the Flux architecture]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 24 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[What are the different pieces that Flux consists of?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[What are the different pieces that Flux consists of?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[Actions, Dispatcher, Stores and Views]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Actions, Reducers, Store and Views]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[JavaScript, JSX, HTML and CSS or SCSS]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Actions, Dispatcher, React Components and Views]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 25 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[In Flux who emits the actions?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[In Flux who emits the actions?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[Actions can be emitted by the user interacting with the app or by the server]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Actions can be emitted by the user interacting with the app]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Actions can be emitted by the server. The user interacting with the app sends requests to the server and it generates the actions]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Actions can be emitted by the React Components]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 26 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[What is Redux?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[What is Redux?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[Redux is a library that implements the Flux pattern]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Redux is a pattern that follows the Flux pattern]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Redux is a React extension for managing data flow in your application.]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Redux is a library to improve React performance]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 27 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[What does Redux first principle "single source of truth" mean?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[What does Redux first principle "single source of truth" mean?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[The state of the whole application is stored in an object in the Store]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[The state of the whole application is stored in an object in the Dispatcher]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[The state of the whole application is not accessible, every component has to ask the Store or the server to get it]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[The state of the whole application is not accessible, every component has to ask the Dispatcher or the server to get it]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 28 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[In Redux, how can we change the state?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[In Redux, how can we change the state?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[The only way to change the state is to emit an action, an object describing what happened]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[The only way to change the state is to request the server to change it and it will emit an action to change it]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[The only way to change the state is to request the server to change it and it will change it and notify the rest of the components]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[You can change the state directly, the dispatcher will observe the change and notify the rest of the components (one way data flow)]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 29 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[What is a reducer?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[What is a reducer?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[A pure function that takes the previous state and an action, and returns the next state]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[A function that takes the previous state and an action, and accordingly modifies the received state with the action]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[A function that takes the initial state and an the array of actions, and returns the next state]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[A function that reduces the information that is duplicated among the state and the actions]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 30 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[What are the different pieces that Redux consists of?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[What are the different pieces that Redux consists of?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[Actions, Reducers, Store, State, User Interface]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Actions, Dispatcher, Stores, User Interface]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Actions, Reducers, Dispatcher, State, User Interface]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Actions, Reducers, React Components, State, User Interface]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 31 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[What is a Redux action?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[What is a Redux action?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[JS object that describes the change to perform on the state]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[JS object dispatched to notify the components that something has changed in the state]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[An action is a call to the store modify the state]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[An action is a call to the dispatcher to modify the state]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 32 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[What of the next actions can be done inside a reducer?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[What of the next actions can be done inside a reducer?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[A switch statement on the action.type]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Modify the state (that is passed as an argument to the reducer)]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[API calls]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Use Math.random()]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 33 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[What is the Redux store?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[What is the Redux store?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[Is the object that joins state and reducers]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Is the object that joins dispatchers and views]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Is the object that joins actions and reducers]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Is the object that joins actions and state]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 34 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[How many stores does a Redux architecture present?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[How many stores does a Redux architecture present?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[One]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Two]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[As many as the programmer wants, they will be combined in one single store with an API method createStore()]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[As many as the programmer wants, each store linked to the rest of them via subscribe(listener)]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 35 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[How many reducers does a Redux architecture present?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[How many reducers does a Redux architecture present?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[As many as the programmer wants, they will be combined in one single reducer with an API method combineReducers()]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[As many as the programmer wants, each store linked to the rest of them via subscribe(listener)]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[One]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Two]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 36 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[What do we need to transfer from Redux to React?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[What do we need to transfer from Redux to React?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[The state and actions]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[The store and reducers]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[The store, reducers, state and actions]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Nothing, everything is accessible as Redux is a React library]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 37 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[What is React?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[What is React?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[A JavaScript library for building user interfaces]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[A MVC library for building user interfaces]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[A complete framework for building user interfaces]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[A NPM and Webpack package for building user interfaces]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 38 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[What is the virtual DOM?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[What is the virtual DOM?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[Is a representation of the HTML DOM in memory]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Is a copy in JSON of the HTML DOM]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Is a programming technique used by some developers to access the "real" DOM and modify it very efficiently]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Is a programming technique used by some frameworks with two way data binding to join the HTML DOM and a copy of it, so when one is modified the other is automatically modified]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 39 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[Which one of the following characteristics does React NOT have?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[Which one of the following characteristics does React NOT have?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[Shadow DOM]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Based on components]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Virtual DOM]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Unidirectional data flow (one-way data binding)]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 40 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[What library performs the reconciliation process in React?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[What library performs the reconciliation process in React?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[ReactDOM]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[No extra library is needed, it is done automatically by the DOM]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[NPM]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Webpack]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Babel]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 41 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[How does the data flow in React?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[How does the data flow in React?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[It is unidirectional, from parent components to child components]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[It is unidirectional, from child components to parent components]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[It is bidirectional (two-way data binding)]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[It is either unidirectional or bidirectional, chosen by the developer by configuration]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 42 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[How is the event flow in React?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[How is the event flow in React?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[It is unidirectional, from child components to parent components]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[It is unidirectional, from parent components to child components]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[It is bidirectional (two-way event binding)]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[It is either unidirectional or bidirectional, chosen by the developer by configuration]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 43 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[What is a component in a Single Page Application?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[What is a component in a Single Page Application?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[each part or chunk of the User Interface]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[each interactive part of the User Interface (for example buttons and input fields)]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[each static part of the User Interface (for example divs, paragraphs, …)]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[each page of our website]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 44 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[Which of the following statements is FALSE?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[Which of the following statements is FALSE?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[A component is a template where you can interpolate data with the props, that are immutable]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[A component is a function that returns an HTML to render]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[A component is a class that extends React.Component with at least a render method that returns the elements to be rendered]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[A component has props (immutable) and a state (mutable)]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 45 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[Which of the following characteristics do the components NOT have?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[Which of the following characteristics do the components NOT have?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[Written in typescript]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[High cohesivity]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Loose coupling]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Easy to test]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Declarative]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 46 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[Which of the following statements is FALSE about creating a React Component?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[Which of the following statements is FALSE about creating a React Component?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[Components can be created using the .component() method of React]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Components can be created using a JavaScript traditional function]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Components can be created using an ES6 class]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Components can be created using a JavaScript ES6 Arrow function]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 47 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[When do we use inheritance of components in React?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[When do we use inheritance of components in React?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[Inheritance of components is not recommended in React]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[When we need specialization of components, being some components special cases of other components]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[When we want to reuse UI between components, we define a parent component and a child component]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[When we want to reuse non-UI functionality between components, we define a parent component and a child component]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 48 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[What is JSX?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[What is JSX?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[It is a JavaScript extension similar to XML, without altering the semantics]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[It is a programming language developed and maintained by Facebook]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[It is a JavaScript extension with type checking]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[It is a library developed and maintained by Facebook]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 49 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[What are the components of JSX tags?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[What are the components of JSX tags?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[Name, attributes and children]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Type, name and components]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Type, name, attributes]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Name, properties, components]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 50 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[Which of the following statements is FALSE?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[Which of the following statements is FALSE?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[JSX can be interpreted by browsers directly]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[JSX must be transpiled to be interpreted by browsers]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Browsers can use a special library to interpret JSX]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[We can write React components without JSX, using only JS]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 51 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[What is the difference between <header> and &lt;Header&gt;?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[What is the difference between &lt;header&gt; and &lt;Header&gt;?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA["Header" is a React Component defined by us and "header" is a HTML tag]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[There is no difference. They are the same]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[It depends on the configuration of the Babel transpiler]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA["Header" is a reserved word as it is a HTML tag and can´t be defined as a React component, so Header is incorrect and we should use other name such as myheader or theheader]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 52 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[What are React fragments?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[What are React fragments?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[An alternative for render method to return multiple components]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[A way to create templates in React, each fragment will represent a static piece of HTML]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[A styled component]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[An unstyled component]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 53 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[How can we include styles in React?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[How can we include styles in React?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[With a style attribute in our component or tag, it will contain a JavaScript object]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[With a style attribute in our component or tag, it will contain CSS]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[With a style attribute in our component or tag, it will contain SCSS]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[With a style attribute in our component or tag, it will contain SASS]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 54 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[What are the instance properties that React provides the components?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[What are the instance properties that React provides the components?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[Props and state]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Defaultprops and defaultName]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[setState and forceUpdate]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[React does not provide any instance properties]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 55 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[What are the class properties that React provides the components?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[What are the class properties that React provides the components?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[Defaultprops and defaultName]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Props and state]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[setState and forceUpdate]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[React does not provide any class properties]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 56 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[What are React Component props?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[What are React Component props?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[A JS object with the component creation parameters]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[A JS object with the component internal state]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[A JS object that can be modified from within the component, usually in the render method]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[A JS object defined inside the component constructor]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 57 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[What is the main difference between React Component state and props?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[What is the main difference between React Component state and props?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[State is mutable, props are immutable]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Props are defined in the component, state is passed as a parameter]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[State is only one, props are several characteristics]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[State is a JS value, props is a JS object]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 58 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[What is the problem with the following code?:  this.setState({ count: state.count + 1 });]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[What is the problem with the following code?: this.setState({ count: state.count + 1 }); ]]>
+      </text>
+    </questiontext>
+    <answer fraction="0">
+      <text>
+        <![CDATA[this.setState is asynchronous and should not use previous state to calculate the next state]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[There is no problem with the code, it will increment the state.count value and will re-render]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[It is not correct, we should instead write this.setState({ count: state.count++ });]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[It is not correct, we should instead write this.setState({ state: state.count + 1 });]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>false</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 59 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[What is an error boundary in React?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[What is an error boundary in React?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[A React Component with a componentDidCatch method]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[A React Component with a try/catch in the render method]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[A React Component specifying "extends React.ErrorBoundary" in the class definition]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[The paremt React Component (usually called App) is the error boundary as it captures all render errors of the children]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 60 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[What are the three lifecycle phases of a React Component?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[What are the three lifecycle phases of a React Component?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[Mounting, updating, unmounting]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Constructor, render, destroy]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Creating, reading, updating, deleting (CRUD)]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Render, pre-commit, commit]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 61 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[What are the required methods that a React Component has to implement?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[What are the required methods that a React Component has to implement?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[render]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[constructor and render]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[constructor, render, componentDidMount and componentDidUpdate]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[constructor, render and componentDidMount]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 62 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[Which of the following is something that the render method should do?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[Which of the following is something that the render method should do?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[Call another function of the component to format a string]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Call setState(…)]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Call document.getElementById(…)]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Call setTimeout(…)]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 63 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[Which of the following sentences is FALSE about the React Component constructor?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[Which of the following sentences is FALSE about the React Component constructor?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[It is a required method, as it is used to create the Component]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[Its first line must be a call to super(props)]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[In it we define the component initial state with direct assignation]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[It is a method called when mounting the component]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 64 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[Where should we place an AJAX call to get some data to render the component?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[Where should we place an AJAX call to get some data to render the component?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[in the componentDidMount method]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[in the constructor, as we need the data to render the component, this can´t be done in any other place]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[in the render method, and we will return the resulting React Elements in the AJAX success callback]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[AJAX calls cannot be made in React Components, they have to be done in external modules and pass the props to the components]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 65 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[In our React app where will we perform the fetching of external data that we nee...]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[In our React app where will we perform the fetching of external data that we need to render our app?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[In the componentDidMount method]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[In the render method before returning the content to be rendered]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[In the constructor, as we need that data to set the initial state]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[In a method defined by us, so we can call it before rendering]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 66 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[What library or package do we need to integrate async operations with a Redux ap...]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[What library or package do we need to integrate async operations with a Redux app?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[We need redux-thunk npm package]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[We need connected-react-router npm package]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[We don´t need any extra package. We can use the HTML5 fetch API or XMLHttpRequest]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[We need redux-fetch npm package]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 67 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[What is a "controlled component"?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[What is a "controlled component"?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[An input form element whose value is controlled by React]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[An input form element whose value is controlled by Redux]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[A component that has no state, it receives everything needed via props]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[A component that is controlled by its parent, it is only concerned with how things look]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 68 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[Which kind of component usually have some DOM markup and styles of their own?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[Which kind of component usually have some DOM markup and styles of their own?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[A presentational component]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[A container component]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[A fat component]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[A smart component]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+  <!-- Question entry 69 -->
+  <question type="multichoice">
+    <name>
+      <text>
+        <![CDATA[Which kind of component are often stateful, as they tend to serve as data sources?]]>
+      </text>
+    </name>
+    <questiontext format="html">
+      <text>
+        <![CDATA[Which kind of component are often stateful, as they tend to serve as data sources?]]>
+      </text>
+    </questiontext>
+    <answer fraction="100.000">
+      <text>
+        <![CDATA[A container component]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[A presentational component]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[A skinny component]]>
+      </text>
+    </answer>
+    <answer fraction="0">
+      <text>
+        <![CDATA[A dumb component]]>
+      </text>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>ABCD</answernumbering>
+  </question>
+</quiz>
+<!-- Generated with http://vletools.com -->
