@@ -1,6 +1,6 @@
 {
   "name": "moodlexml-to-json",
-  "version": "0.0.1-beta",
+  "version": "1.0.0-beta",
   "description": "Javascript library for translating MoodleXML into JSON",
   "main": "./lib/index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sonsoleslp/moodlexml-to-json.git"
-  },  
+  },
   "keywords": [
     "moodlexml",
     "moodle",
