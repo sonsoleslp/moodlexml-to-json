@@ -6,62 +6,73 @@ const normalPath = path.normalize(`${__dirname}/test2.xml`);
 const contents = fs.readFileSync(normalPath, 'utf8');
 const moodleXMLtoJSON = require('../src');
 const assert = require("chai").assert;
+
+
+const createCallback = (assertFun) => {
+  return (res,err) => {
+    assertFun(res,err)
+  }
+}
+
 describe('General XML to JSON', () => {
   it('should parse', () => {
-    const callback = (res,err)=>{
-      assert(!!res, true);
-    }
-    moodleXMLtoJSON(contents, callback)
+    moodleXMLtoJSON(contents, createCallback((res,err)=> assert(!!res, true)))
+  });
+
+  it('should not parse', () => {
+    moodleXMLtoJSON("WRONG XML", createCallback((res,err)=> assert(!!err, true)))
   });
 
   it('should not have errors', () => {
-    const callback = (res,err)=>{
-      assert(err,undefined)
-    }
-    moodleXMLtoJSON(contents, callback)
+    moodleXMLtoJSON(contents, createCallback((res,err)=> assert(err,undefined)))
+  });
+
+  it('should not recognize exercise type', () => {
+    moodleXMLtoJSON(contents.replace("numerical","unknown")
+      , createCallback((res,err)=> assert(!!err,true)))
+ 
   });
 });
+
 describe('Category', () => {
   it('should contain category', () => {
-    const callback = (res,err)=>{
-      assert(res[0].type,"category")
-    }
-    moodleXMLtoJSON(contents, callback)
+    moodleXMLtoJSON(contents, createCallback((res,err)=> assert(res[0].type,"category")))
   });
 });
+
 describe('Truefalse exercise', () => {
   it('should contain truefalse', () => {
-    const callback = (res,err)=>{
-      assert(res[1].type,"truefalse")
-    }
-    moodleXMLtoJSON(contents, callback)
+    moodleXMLtoJSON(contents, createCallback((res,err)=> assert(res[1].type,"truefalse")))
   });
 });
+
 describe('Multiple choice exercise', () => {
-  it('should contain multichoice', () => {
-    const callback = (res,err)=>{
-      assert(res[4].type,"multichoice")
-    }
-    moodleXMLtoJSON(contents, callback)
+it('should contain multichoice', () => {
+    moodleXMLtoJSON(contents, createCallback((res,err)=> assert(res[4].type,"multichoice")))
   });
 });
+
 describe('Short answer exercise', () => {
-  it('should contain shortanswer', () => {
-    const callback = (res,err)=>{
-      assert(res[11].type,"shortanswer")
-    }
-    moodleXMLtoJSON(contents, callback)
+it('should contain shortanswer', () => {
+    moodleXMLtoJSON(contents, createCallback((res,err)=> assert(res[11].type,"shortanswer")))
   });
 });
+
 describe('Matching exercise', () => {
-    it('should contain matching', () => {
-    const callback = (res,err)=>{
-      assert(res[15].type,"matching")
-    }
-    moodleXMLtoJSON(contents, callback)
+  it('should contain matching', () => {
+    moodleXMLtoJSON(contents, createCallback((res,err)=> assert(res[15].type,"matching")))
   });
 });
  
-
+describe('Numerical exercise', () => {
+  it('should contain numerical', () => {
+    moodleXMLtoJSON(contents, createCallback((res,err)=> assert(res[16].type,"numerical")))
+  });
+});
   
+describe('Essay exercise', () => {
+  it('should contain essay', () => {
+    moodleXMLtoJSON(contents, createCallback((res,err)=> assert(res[17].type,"essay")))
+  });
+}); 
 

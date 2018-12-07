@@ -12,7 +12,7 @@ const callback = (result, error) => {
 		return;
 	}
 
-	console.log(result);
+	// console.log(result);
 
 }
 moodleXMLtoJSON(contents, callback); 

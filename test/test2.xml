@@ -1,306 +1,365 @@
 <?xml version="1.0" encoding="UTF-8"?>
-        <quiz>
-        <question type="category">
+<quiz>
+    <question type="category">
         <category>
-        <text>Moodle QUIZ XML export</text>
-        <feedback><text>Correct!</text></feedback>
+            <text>Moodle QUIZ XML export</text>
+            <feedback>
+                <text>Correct!</text>
+            </feedback>
         </category>
-        </question>
-		<question type="truefalse">
+    </question>
+    <question type="truefalse">
         <name>
-        <text>Marque si las siguientes afirmaciones son verdaderas o falsas.</text>
+            <text>Marque si las siguientes afirmaciones son verdaderas o falsas.</text>
         </name>
         <questiontext>
-        <text>­Si un coche circula a 25 m/s, lo hace a 90km/h</text>
+            <text>­Si un coche circula a 25 m/s, lo hace a 90km/h</text>
         </questiontext>
+        <tags>
+            <tag>
+                <text>keyword1</text>
+            </tag>
+            <tag>
+                <text>keyword2</text>
+            </tag>
+        </tags>
         <answer fraction="100">
-        <text>true</text>
+            <text>true</text>
         </answer>
         <answer fraction="0">
-        <text>false</text>
+            <text>false</text>
         </answer>
-        </question>
-		<question type="truefalse">
+    </question>
+    <question type="truefalse">
         <name>
-        <text>Marque si las siguientes afirmaciones son verdaderas o falsas.</text>
+            <text>Marque si las siguientes afirmaciones son verdaderas o falsas.</text>
         </name>
         <questiontext>
-        <text>­Si un coche va a 72 km/h, lo hace a 20m/s</text>
+            <text>­Si un coche va a 72 km/h, lo hace a 20m/s</text>
         </questiontext>
         <answer fraction="100">
-        <text>true</text>
+            <text>true</text>
         </answer>
         <answer fraction="0">
-        <text>false</text>
+            <text>false</text>
         </answer>
-        </question>
-		<question type="truefalse">
+    </question>
+    <question type="truefalse">
         <name>
-        <text>Marque si las siguientes afirmaciones son verdaderas o falsas.</text>
+            <text>Marque si las siguientes afirmaciones son verdaderas o falsas.</text>
         </name>
         <questiontext>
-        <text>­La primera Ley de Newton es la Ley de Acción-Reacción</text>
+            <text>­La primera Ley de Newton es la Ley de Acción-Reacción</text>
         </questiontext>
         <answer fraction="0">
-        <text>true</text>
+            <text>true</text>
         </answer>
         <answer fraction="100">
-        <text>false</text>
+            <text>false</text>
         </answer>
-        </question>
-		<question type="multichoice">
+    </question>
+    <question type="multichoice">
         <name>
-        <text>¿En qué unidades se mide la fuerza?</text>
+            <text>¿En qué unidades se mide la fuerza?</text>
         </name>
         <questiontext>
-        <text>¿En qué unidades se mide la fuerza?</text>
+            <text>¿En qué unidades se mide la fuerza?</text>
         </questiontext>
         <shuffleanswers>1</shuffleanswers>
         <single>true</single>
         <answer fraction="0">
-        <text>Metros cuadrados</text>
+            <text>Metros cuadrados</text>
         </answer>
         <answer fraction="100">
-        <text>Newtons</text>
+            <text>Newtons</text>
         </answer>
         <answer fraction="0">
-        <text>Kilogramos</text>
+            <text>Kilogramos</text>
         </answer>
-		<answer fraction="0">
-        <text>Pascales</text>
+        <answer fraction="0">
+            <text>Pascales</text>
         </answer>
-        </question>
-		<question type="multichoice">
+    </question>
+    <question type="multichoice">
         <name>
-        <text>¿En qué unidades se mide el impulso?</text>
+            <text>¿En qué unidades se mide el impulso?</text>
         </name>
         <questiontext>
-        <text>¿En qué unidades se mide el impulso?</text>
+            <text>¿En qué unidades se mide el impulso?</text>
         </questiontext>
         <shuffleanswers>8</shuffleanswers>
         <single>true</single>
         <answer fraction="0">
-        <text>kg * m</text>
+            <text>kg * m</text>
         </answer>
         <answer fraction="100">
-        <text>kg * m/s</text>
+            <text>kg * m/s</text>
         </answer>
         <answer fraction="0">
-        <text>m * s</text>
+            <text>m * s</text>
         </answer>
-        </question>
-		<question type="multichoice">
+    </question>
+    <question type="multichoice">
         <name>
-        <text>¿Qué organismo determina las unidades?</text>
+            <text>¿Qué organismo determina las unidades?</text>
         </name>
         <questiontext>
-        <text>¿Qué organismo determina las unidades?</text>
+            <text>¿Qué organismo determina las unidades?</text>
         </questiontext>
         <shuffleanswers>1</shuffleanswers>
         <single>true</single>
         <answer fraction="0">
-        <text>El Sistema de Unidades</text>
+            <text>El Sistema de Unidades</text>
         </answer>
         <answer fraction="100">
-        <text>El Sistema Internacional</text>
+            <text>El Sistema Internacional</text>
         </answer>
         <answer fraction="0">
-        <text>El Sistema Físico de Unidades</text>
+            <text>El Sistema Físico de Unidades</text>
         </answer>
-		<answer fraction="0">
-        <text>El Sistema de Magnitudes</text>
+        <answer fraction="0">
+            <text>El Sistema de Magnitudes</text>
         </answer>
-        </question>
-		<question type="multichoice">
+    </question>
+    <question type="multichoice">
         <name>
-        <text>La velocidad media de un cuerpo...</text>
+            <text>La velocidad media de un cuerpo...</text>
         </name>
         <questiontext>
-        <text>La velocidad media de un cuerpo...</text>
+            <text>La velocidad media de un cuerpo...</text>
         </questiontext>
         <shuffleanswers>5</shuffleanswers>
-        <single>true</single>
         <answer fraction="0">
-        <text>Coincide siempre con la velocidad instantánea</text>
+            <text>Coincide siempre con la velocidad instantánea</text>
         </answer>
         <answer fraction="100">
-        <text>Puede ser mayor que la velocidad instantánea</text>
+            <text>Puede ser mayor que la velocidad instantánea</text>
         </answer>
         <answer fraction="100">
-        <text>Puede ser menor que la velocidad instantánea</text>
+            <text>Puede ser menor que la velocidad instantánea</text>
         </answer>
-        </question>
-		<question type="multichoice">
+    </question>
+    <question type="multichoice">
         <name>
-        <text>Una disolución...</text>
+            <text>Una disolución...</text>
         </name>
         <questiontext>
-        <text>Una disolución...</text>
+            <text>Una disolución...</text>
         </questiontext>
         <shuffleanswers>1</shuffleanswers>
-        <single>true</single>
         <answer fraction="100">
-        <text>Está formada por un soluto y un disolvente</text>
+            <text>Está formada por un soluto y un disolvente</text>
         </answer>
         <answer fraction="100">
-        <text>Es una mezcla homogénea</text>
+            <text>Es una mezcla homogénea</text>
         </answer>
         <answer fraction="0">
-        <text>Es una mezcla heterogénea</text>
+            <text>Es una mezcla heterogénea</text>
         </answer>
-		<answer fraction="0">
-        <text>No es una mezcla</text>
+        <answer fraction="0">
+            <text>No es una mezcla</text>
         </answer>
-        </question>
-		<question type="multichoice">
+    </question>
+    <question type="multichoice">
         <name>
-        <text>La concentración en masa de una disolución...</text>
+            <text>La concentración en masa de una disolución...</text>
         </name>
         <questiontext>
-        <text>La concentración en masa de una disolución...</text>
+            <text>La concentración en masa de una disolución...</text>
         </questiontext>
         <shuffleanswers>5</shuffleanswers>
-        <single>true</single>
         <answer fraction="0">
-        <text>Es un parámetro variable con la masa del soluto</text>
+            <text>Es un parámetro variable con la masa del soluto</text>
         </answer>
         <answer fraction="100">
-        <text>Es constante</text>
+            <text>Es constante</text>
         </answer>
         <answer fraction="100">
-        <text>Relaciona las masas del soluto y de la disolución</text>
+            <text>Relaciona las masas del soluto y de la disolución</text>
         </answer>
-        </question>
-        <question type="shortanswer">
+    </question>
+    <question type="shortanswer">
         <name>
-        <text>¿Cuál es el símbolo del hidrógeno?</text>
+            <text>¿Cuál es el símbolo del hidrógeno?</text>
         </name>
         <questiontext>
-        <text>¿Cuál es el símbolo del hidrógeno?­</text>
+            <text>¿Cuál es el símbolo del hidrógeno?­</text>
         </questiontext>
         <answer fraction="100">
-        <text>H</text>
+            <text>H</text>
         </answer>
-        </question>
-		<question type="shortanswer">
+    </question>
+    <question type="shortanswer">
         <name>
-        <text>¿Cuántos neutrones tiene el hidrógeno?</text>
+            <text>¿Cuántos neutrones tiene el hidrógeno?</text>
         </name>
         <questiontext>
-        <text>¿Cuántos neutrones tiene el hidrógeno?</text>
+            <text>¿Cuántos neutrones tiene el hidrógeno?</text>
         </questiontext>
         <answer fraction="100">
-        <text>0</text>
+            <text>0</text>
         </answer>
-        </question>
-		<question type="shortanswer">
+    </question>
+    <question type="shortanswer">
         <name>
-        <text>¿Cuántos gramos pesa un mol de agua?</text>
+            <text>¿Cuántos gramos pesa un mol de agua?</text>
         </name>
         <questiontext>
-        <text>¿Cuántos gramos pesa un mol de agua?</text>
+            <text>¿Cuántos gramos pesa un mol de agua?</text>
         </questiontext>
         <answer fraction="100">
-        <text>18</text>
+            <text>18</text>
         </answer>
-        </question>
-		<question type="matching">
+        <answer fraction="0">
+            <text>1</text>
+        </answer>
+    </question>
+    <question type="matching">
         <name>
-        <text>Ordena por orden de aparición en la tabla periódica</text>
+            <text>Ordena por orden de aparición en la tabla periódica</text>
         </name>
         <questiontext>
-        <text>Ordena por orden de aparición en la tabla periódica­</text>
+            <text>Ordena por orden de aparición en la tabla periódica­</text>
         </questiontext>
         <shuffleanswers>false</shuffleanswers>
         <subquestion>
-        <text>1</text>
-        <answer>
-        <text>H</text>
-        </answer>
+            <text>1</text>
+            <answer>
+                <text>H</text>
+            </answer>
         </subquestion>
         <subquestion>
-        <text>2</text>
-        <answer>
-        <text>Li</text>
-        </answer>
+            <text>2</text>
+            <answer>
+                <text>Li</text>
+            </answer>
         </subquestion>
         <subquestion>
-        <text>3</text>
-        <answer>
-        <text>S</text>
-        </answer>
+            <text>3</text>
+            <answer>
+                <text>S</text>
+            </answer>
         </subquestion>
         <subquestion>
-        <text>4</text>
-        <answer>
-        <text>In</text>
-        </answer>
+            <text>4</text>
+            <answer>
+                <text>In</text>
+            </answer>
         </subquestion>
-        </question>
-		<question type="matching">
+    </question>
+    <question type="matching">
         <name>
-        <text>Ordena las siguientes velocidades</text>
+            <text>Ordena las siguientes velocidades</text>
         </name>
         <questiontext>
-        <text>Ordena las siguientes velocidades</text>
+            <text>Ordena las siguientes velocidades</text>
         </questiontext>
         <shuffleanswers>false</shuffleanswers>
         <subquestion>
-        <text>1</text>
-        <answer>
-        <text>90 km/h</text>
-        </answer>
+            <text>1</text>
+            <answer>
+                <text>90 km/h</text>
+            </answer>
         </subquestion>
         <subquestion>
-        <text>2</text>
-        <answer>
-        <text>20 m/s</text>
-        </answer>
+            <text>2</text>
+            <answer>
+                <text>20 m/s</text>
+            </answer>
         </subquestion>
         <subquestion>
-        <text>3</text>
-        <answer>
-        <text>36 km/h</text>
-        </answer>
+            <text>3</text>
+            <answer>
+                <text>36 km/h</text>
+            </answer>
         </subquestion>
         <subquestion>
-        <text>4</text>
-         <answer>
-        <text>5 m/s</text>
-        </answer>
+            <text>4</text>
+            <answer>
+                <text>5 m/s</text>
+            </answer>
         </subquestion>
-        </question>
-		<question type="matching">
+        <image>
+            <image_base64>data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP</image_base64>
+        </image>
+        <generalfeedback>
+            Bien! 
+        </generalfeedback>
+    </question>
+    <question type="matching">
         <name>
-        <text>Ordena por electronegatividad de mayor a menor</text>
+            <text>Ordena por electronegatividad de mayor a menor</text>
         </name>
         <questiontext>
-        <text>Ordena por electronegatividad de mayor a menor</text>
+            <text>Ordena por electronegatividad de mayor a menor</text>
         </questiontext>
         <shuffleanswers>false</shuffleanswers>
         <subquestion>
-        <text>1</text>
-        <answer>
-        <text>F</text>
-        </answer>
+            <text>1</text>
+            <answer>
+                <text>F</text>
+            </answer>
         </subquestion>
         <subquestion>
-        <text>2</text>
-        <answer>
-        <text>O</text>
-        </answer>
+            <text>2</text>
+            <answer>
+                <text>O</text>
+            </answer>
         </subquestion>
         <subquestion>
-        <text>3</text>
-        <answer>
-        <text>H</text>
-        </answer>
+            <text>3</text>
+            <answer>
+                <text>H</text>
+            </answer>
         </subquestion>
         <subquestion>
-        <text>4</text>
-        <answer>
-        <text>Li</text>
-        </answer>
+            <text>4</text>
+            <answer>
+                <text>Li</text>
+            </answer>
         </subquestion>
-        </question>
-		</quiz>
+        <image>https://docs.moodle.org/dev/skins/moodledocs/sitebar/pix/logo.png</image>
+        <generalfeedback>
+            <text>Bien!</text>
+        </generalfeedback>
+    </question>
+    <question type="numerical">
+        <name>
+            __Question 8 
+        </name>
+        <questiontext format="html">
+            <text><![CDATA[How many books are in ITIL V3? Answer only with a number.]]></text>
+        </questiontext>
+        <answer fraction="100.00">
+            <text><![CDATA[5]]></text>
+        </answer>
+        <answer fraction="0">
+            <text>0</text>
+        </answer>
+        <tolerance>1</tolerance>
+        <penalty>2</penalty>
+        <hidden>true</hidden>
+    </question>
+    <question type="essay">
+        <answer fraction="0">
+            <text></text>
+        </answer>
+    </question>
+    <question type="essay">
+        <name>
+            <text>Escribe lo que has hecho el fin de semana</text>
+        </name>
+        <questiontext>
+           Escribe lo que has hecho el fin de semana: 
+        </questiontext>
+        <answer fraction="0">
+        </answer>
+    </question>
+    <question>
+        <questiontext>
+           Escribe lo que has hecho el fin de semana: 
+        </questiontext>
+        <answer fraction="0">
+        </answer>
+    </question>
+</quiz>
