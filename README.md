@@ -1,6 +1,7 @@
 # MoodleXML to JSON
 
 [![Build Status](https://travis-ci.org/sonsoleslp/moodlexml-to-json.svg?branch=master)](https://travis-ci.org/sonsoleslp/moodlexml-to-json) 
+[![dependencies Status](https://david-dm.org/sonsoleslp/moodlexml-to-json/status.svg)](https://david-dm.org/sonsoleslp/moodlexml-to-json) [![devDependencies Status](https://david-dm.org/sonsoleslp/moodlexml-to-json/dev-status.svg)](https://david-dm.org/sonsoleslp/moodlexml-to-json?type=dev) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
