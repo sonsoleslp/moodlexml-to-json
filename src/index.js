@@ -171,7 +171,7 @@ const moodleXMLtoJSON = (xmlStr, callback) => {
     }
     try {
       const questions = result.quiz.question.map(q => parseQuestion(q));
-      callback(questions, undefined);
+      callback({ questions }, undefined);
     } catch (e) {
       callback(undefined, e);
     }
