@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/sonsoleslp/moodlexml-to-json.svg?branch=master)](https://travis-ci.org/sonsoleslp/moodlexml-to-json) 
 [![dependencies Status](https://david-dm.org/sonsoleslp/moodlexml-to-json/status.svg)](https://david-dm.org/sonsoleslp/moodlexml-to-json) [![devDependencies Status](https://david-dm.org/sonsoleslp/moodlexml-to-json/dev-status.svg)](https://david-dm.org/sonsoleslp/moodlexml-to-json?type=dev) 
+[![Coverage Status](https://coveralls.io/repos/github/sonsoleslp/moodlexml-to-json/badge.svg?branch=master)](https://coveralls.io/github/sonsoleslp/moodlexml-to-json?branch=master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
