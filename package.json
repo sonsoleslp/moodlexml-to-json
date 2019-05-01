@@ -1,6 +1,6 @@
 {
   "name": "moodlexml-to-json",
-  "version": "1.0.1-beta",
+  "version": "1.0.2-beta",
   "description": "Javascript library for translating MoodleXML into JSON",
   "main": "./lib/index.js",
   "scripts": {

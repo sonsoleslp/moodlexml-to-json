@@ -87,11 +87,15 @@ const parseQuestion = (q) => {
   if (type === 'category') {
     return { type, category: parseHTMLtext(q.category) };
   }
-
   const question = {
     type,
     name: parseHTMLtext(q.name),
     questiontext: parseHTMLtext(q.questiontext),
+    format: (q.questiontext &&
+      q.questiontext &&
+      q.questiontext[0] &&
+      q.questiontext[0].$ &&
+      q.questiontext[0].$.format) ? q.questiontext[0].$.format : undefined,
     penalty: parseText(q.penalty),
     hidden: parseText(q.hidden),
     generalfeedback: parseText(q.generalfeedback),
