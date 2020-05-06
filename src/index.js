@@ -76,12 +76,12 @@ const parseSubquestions = (sub) => {
   return sub;
 };
 
-const parseQuestion = (q, index) => {
+const parseQuestion = (q, index, options = {}) => {
   try {
     let answers;
     let correctAnswer;
     if (!q || !q.$) {
-      console.warn(`Question ${index} is missing`);
+      if (options.debug) console.warn(`Question ${index} is missing`);
       return null;
     }
     const { type } = q.$;
@@ -108,7 +108,8 @@ const parseQuestion = (q, index) => {
     switch (type) {
       case 'multichoice':
         answers = parseAnswers(type, q.answer);
-        correctAnswer = answers.map((a, i) => ((a.score !== 0) ? i : null)).filter(a => a !== null);
+        correctAnswer = answers.map((a, i) => ((a.score && (a.score > 0)) ? i : null))
+          .filter(a => a !== null);
         question.answers = answers;
         question.correctAnswer = correctAnswer;
         question.single = parseText(q.single) || false;
@@ -170,7 +171,6 @@ const parseQuestion = (q, index) => {
         question.answers = answers.map(a => a.text);
         question.correctAnswer = answers.map(a => a.answer);
         question.shuffleanswers = q.shuffleanswers === 1 || q.shuffleanswers === '1';
-        console.log(question);
         break;
       case 'description':
         break;
@@ -179,20 +179,23 @@ const parseQuestion = (q, index) => {
     }
     return question;
   } catch (error) {
-    console.warn(`Could not parse question ${index + 1} (${JSON.stringify(q)})
+    if (options.debug) {
+      console.warn(`Could not parse question ${index + 1} (${JSON.stringify(q)})
     Error: ${error}`);
+    }
     return null;
   }
 };
 
-const moodleXMLtoJSON = (xmlStr, callback) => {
+const moodleXMLtoJSON = (xmlStr, callback, options = {}) => {
   parseString(xmlStr, { trim: true, normalizeTags: true }, (err, result) => {
     if (err) {
       callback(undefined, err);
       return;
     }
     try {
-      const questions = result.quiz.question.map((q, i) => parseQuestion(q, i)).filter(Boolean);
+      const questions = result.quiz.question.map((q, i) =>
+        parseQuestion(q, i, options)).filter(Boolean);
       callback({ questions }, undefined);
     } catch (e) {
       callback(undefined, e);
