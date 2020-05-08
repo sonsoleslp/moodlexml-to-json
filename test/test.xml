@@ -17,7 +17,7 @@
         </questiontext>
         <tags>
             <tag>
-                <text>keyword1</text>
+                <text>keyword1</text> 
             </tag>
             <tag>
                 <text>keyword2</text>
@@ -65,7 +65,7 @@
         <questiontext>
             <text>¿En qué unidades se mide la fuerza?</text>
         </questiontext>
-        <shuffleanswers>1</shuffleanswers>
+        <shuffleanswers>0</shuffleanswers>
         <single>true</single>
         <answer fraction="0">
             <text>Metros cuadrados</text>
@@ -87,7 +87,7 @@
         <questiontext>
             <text>¿En qué unidades se mide el impulso?</text>
         </questiontext>
-        <shuffleanswers>8</shuffleanswers>
+        <shuffleanswers>1</shuffleanswers>
         <single>true</single>
         <answer fraction="0">
             <text>kg * m</text>
@@ -128,7 +128,7 @@
         <questiontext>
             <text>La velocidad media de un cuerpo...</text>
         </questiontext>
-        <shuffleanswers>5</shuffleanswers>
+        <shuffleanswers>1</shuffleanswers>
         <answer fraction="0">
             <text>Coincide siempre con la velocidad instantánea</text>
         </answer>
@@ -167,7 +167,7 @@
         <questiontext>
             <text>La concentración en masa de una disolución...</text>
         </questiontext>
-        <shuffleanswers>5</shuffleanswers>
+        <shuffleanswers>1</shuffleanswers>
         <answer fraction="0">
             <text>Es un parámetro variable con la masa del soluto</text>
         </answer>
@@ -221,7 +221,7 @@
         <questiontext>
             <text>Ordena por orden de aparición en la tabla periódica­</text>
         </questiontext>
-        <shuffleanswers>false</shuffleanswers>
+        <shuffleanswers>1</shuffleanswers>
         <subquestion>
             <text>1</text>
             <answer>
@@ -254,7 +254,7 @@
         <questiontext>
             <text>Ordena las siguientes velocidades</text>
         </questiontext>
-        <shuffleanswers>false</shuffleanswers>
+        <shuffleanswers>1</shuffleanswers>
         <subquestion>
             <text>1</text>
             <answer>
@@ -293,7 +293,7 @@
         <questiontext>
             <text>Ordena por electronegatividad de mayor a menor</text>
         </questiontext>
-        <shuffleanswers>false</shuffleanswers>
+        <shuffleanswers>1</shuffleanswers>
         <subquestion>
             <text>1</text>
             <answer>
