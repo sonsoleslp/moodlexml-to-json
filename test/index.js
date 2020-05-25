@@ -17,7 +17,7 @@ const createCallback = (assertFun) => {
 
 describe('General XML to JSON', () => {
   it('should parse', () => {
-    moodleXMLtoJSON(contents, createCallback((res, err)=> assert(!!res, true)));
+    moodleXMLtoJSON(contents, createCallback((res, err)=> {console.log(res);assert(!!res, true)}));
   });
 
   it('should not parse', () => {

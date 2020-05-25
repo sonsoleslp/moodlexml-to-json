@@ -114,7 +114,7 @@ const parseQuestion = (q, index, options = {}) => {
         question.correctAnswer = correctAnswer;
         question.single = parseText(q.single) || false;
         question.shuffleanswers = parseText(q.shuffleanswers);
-        question.shuffleanswers = question.shuffleanswers === 1 || question.shuffleanswers === '1' || question.shuffleanswers === 'true';
+        question.shuffleanswers = question.shuffleanswers === 1 || question.shuffleanswers === '1' || question.shuffleanswers === 'true' || question.shuffleanswers === true;
         question.correctfeedback = parseText(q.correctfeedback);
         question.partiallycorrectfeedback = parseText(q.partiallycorrectfeedback);
         question.incorrectfeedback = parseText(q.incorrectfeedback);
@@ -172,7 +172,7 @@ const parseQuestion = (q, index, options = {}) => {
         question.answers = answers.map(a => a.text);
         question.correctAnswer = answers.map(a => a.answer);
         question.shuffleanswers = parseText(q.shuffleanswers);
-        question.shuffleanswers = question.shuffleanswers === 1 || question.shuffleanswers === '1' || question.shuffleanswers === 'true';
+        question.shuffleanswers = question.shuffleanswers === 1 || question.shuffleanswers === '1' || question.shuffleanswers === 'true' || question.shuffleanswers === true;
         break;
       case 'description':
         break;
